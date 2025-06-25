@@ -1,1 +1,15 @@
-spring.application.name=spring-boot-security-oauth2-resource-server
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          # Si tu Authorization Server expone well-known:
+          issuer-uri: http://localhost:9001
+server:
+  port: 8081  # puerto de tu resource server
+  application:
+    name: spring-boot-security-oauth2-resource-server
+
+logging:
+  level:
+    org.springframework.security: trace

@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringBootSecurityOauth2ResourceServerApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringBootSecurityOauth2ResourceServerApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootSecurityOauth2ResourceServerApplication.class, args);
+    }
 
 }
